@@ -1,6 +1,6 @@
 # PGI101-Programming-Contest
 ## Schedule 
-2022/4/10 Sun Week 1
+Week 1 2022/4/10 Sun 
 
 Lecture 0 Introduction to Programming Contest
 
