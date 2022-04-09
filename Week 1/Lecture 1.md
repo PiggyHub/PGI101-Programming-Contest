@@ -38,3 +38,70 @@ int main(){
 Welecome to Piggy Island
 2022/4/10
 ```
+### Example 2 猪猪爱计算
+```c++
+//基本运算符：+ - * /
+#include<iostream> 
+#include<cmath> //数学函数库
+using namespace std;
+int main(){
+    cout<< 1314/520; //整数除法得整数
+    cout<< 1314.0/520; //浮点数除法得浮点数
+    cout<< pow(3,2); // 幂函数
+    cout<< sqrt(9); //开平方根
+    cout<< abs(-10); //绝对值
+    cout<< ceil(2.1); //向上取整
+    cout<< floor(2.9); //向下取整
+    cout<< round(3.5); //四舍五入
+    return 0;
+}
+```
+输出结果
+```
+2
+2.52692
+9
+3
+10
+3
+2
+4
+```
+### Example 3 猪猪爱变量
+``` c++
+//基本变量 int, double, long long, char
+#include<iostream> 
+using namespace std;
+int main(){
+    int balance = 100;
+    balance += 10; //balance = balance + 10
+    cout<<balance;
+    return 0;
+}
+```
+输出结果
+```
+10
+```
+## Exercise 1.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
