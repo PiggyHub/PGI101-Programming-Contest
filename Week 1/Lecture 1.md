@@ -19,8 +19,8 @@ RE （Runtime Error = 运⾏时出错）
 MLE （Memory Limit Exceeded = 内存超限）
 
 PE （Presentation Error = 格式错误）
-## 1.1 Basic I/O
-### Example 1 欢迎来到猪猪岛
+## 1.1 Sequential Structure
+### Example 1 Welecome to Piggy Island
 ```c++
 #include<iostream> //头文件
 using namespace std; //命名空间
@@ -38,13 +38,17 @@ int main(){
 Welecome to Piggy Island
 2022/4/10
 ```
-### Example 2 猪猪爱计算
+### Example 2 Variable & Calculator
 ```c++
 //基本运算符：+ - * /
 #include<iostream> 
 #include<cmath> //数学函数库
 using namespace std;
 int main(){
+    int balance = 100;
+    balance += 10; //balance = balance + 10
+    cout<< balance <<endl;
+    
     cout<< 1314/520; //整数除法得整数
     cout<< 1314.0/520; //浮点数除法得浮点数
     cout<< pow(3,2); // 幂函数
@@ -53,11 +57,13 @@ int main(){
     cout<< ceil(2.1); //向上取整
     cout<< floor(2.9); //向下取整
     cout<< round(3.5); //四舍五入
+    
     return 0;
 }
 ```
 输出结果
 ```
+10
 2
 2.52692
 9
@@ -67,23 +73,37 @@ int main(){
 2
 4
 ```
-### Example 3 猪猪爱变量
+### Example 3 Data Type & I/O 
 ``` c++
-//基本变量 int, double, long long, char
 #include<iostream> 
+#include<cstdio>
 using namespace std;
 int main(){
-    int balance = 100;
-    balance += 10; //balance = balance + 10
-    cout<<balance;
-    return 0;
+    int ans1;
+    char ans2;
+    ans1 = 'M' - 'A' + 1; //ASCII
+    ans2 = 'A' + 1
+    cout<< ans1 << endl;
+    cout<< ans1 << endl;
+    cout<< int('A') <<endl<<endl; //强制类型转换
+    
+    int x; cin>> x; cout<< x << endl; //基本输入输出
+    char a,b,c,d,str[10]={"Hello"};
+    scanf("%c%c%c.%c", &a, &b, &c, &d); //123.4
+    printf("%c.%c%c%c\n", &d, &c, &b, &a);
+    printf("%02d %.2f %s", 2, 3.14159, str);
+    return 0;;    
 }
 ```
 输出结果
 ```
-10
+13
+B
+65
+
+4.321
+02 3.14 Hello
 ```
-## Exercise 1.1
 
 
 
