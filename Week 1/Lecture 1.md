@@ -1,4 +1,4 @@
-# Lecture 1 Programming Basic
+# Lecture 0.5 Programming Basic
 ## Introduction to Luogu
 OJ（Online Judge）是指在线判题系统，将代码提交给OJ后， OJ会在线检测程序源代码的正确性，并返回结果。
 
