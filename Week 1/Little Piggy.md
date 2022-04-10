@@ -27,3 +27,45 @@ int main() {
 异或
 8
 ```
+
+## 4. Loop Structure
+### Example 5 for & while & nested loop
+``` c++
+#include<iostream>
+using namespace std;
+int main() {
+    int ans = 10,temp;
+    
+    //for的嵌套循环
+    for (int i = 0; i < 3; i++) { 
+        for (temp = 0;;temp++){ // 不设终止条件           
+            if(temp == ans){ // 循环终止条件
+                break;                 
+            }    
+        }
+        cout<<temp<<" ";
+    }
+    cout<<"\n";
+    //while的循环
+    while (temp--) // while循环
+        cout<<"1 ";
+    cout<<"\n";
+
+    // 逗号表达式，没有循环体; x = x+1; ans = ans/2;
+    for (int x = 0; x < 2; x+=1, ans/=2);
+    cout<<ans<<endl;
+    
+    // do...while (先做后判断)
+    do{
+            ans *= 8;
+        } while (ans < 30);
+    cout<<ans;    
+}
+```
+输出结果
+```
+10 10 10 
+1 1 1 1 1 1 1 1 1 1 
+2
+128
+```
