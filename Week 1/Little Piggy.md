@@ -1,5 +1,5 @@
 ## 3. Branch Structure
-### Example 4 if
+### Example 4 if & switch
 ``` c++
 #include<iostream>
 using namespace std;
