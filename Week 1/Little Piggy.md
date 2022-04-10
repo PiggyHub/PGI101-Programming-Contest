@@ -32,22 +32,43 @@ int main() {
 ### Example 5 for & while & nested loop
 ``` c++
 #include<iostream>
+#include<algorithm> // 头文件
+
+//与随机数有关的头文件
+#include<ctime>
+#include<cstdlib>
+
 using namespace std;
 int main() {
-    int ans = 10,temp;
+
+    //函数比较
+    int a = 5,b = 10;
+    int ans = max(a,b); //取ab间较大值
+    int s = min(a,b);//取ab间较小值
+    int temp;
+    cout<<ans<<" "<<s<<endl;
+
+    //随机数: 从a到b中产生一个随机数
+    srand(time(0));
+    int x = rand() % (a-b+1) +a;
+    cout<<x<<endl;
     
     //for的嵌套循环
-    for (int i = 0; i < 3; i++) { 
-        for (temp = 0;;temp++){ // 不设终止条件           
+    for (int i = 0; i < 3; i++) {
+        if(i ==1)
+            continue; //跳过本次循环中未执行的语句
+        for (temp = 0;;temp++){ // 不设终止条件
             if(temp == ans){ // 循环终止条件
-                break;                 
+                cout<<temp+i<<" ";
+                break; //跳出该层循环
+                              
             }    
         }
-        cout<<temp<<" ";
+        
     }
     cout<<"\n";
     //while的循环
-    while (temp--) // while循环
+    while (temp--) // 先判断temp是否为0再减；若写成 --temp 则先将temp减1再判断是否为0
         cout<<"1 ";
     cout<<"\n";
 
@@ -64,7 +85,9 @@ int main() {
 ```
 输出结果
 ```
-10 10 10 
+10 5
+6
+10 12 
 1 1 1 1 1 1 1 1 1 1 
 2
 128
