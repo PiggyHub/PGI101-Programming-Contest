@@ -112,7 +112,41 @@ Hel?lo World!
 ```
 ### Exercise P5733, P1308
 ## Example 5 Function & Struct
+```c++
+#include<iostream> 
+using namespace std;
 
+int f(int x) {
+    if(x==1) return 1;
+    return x + f(x-1);
+}
+
+struct Student {
+    string name;
+    int age;
+}Piggy[100];
+
+int main(){
+
+    int n=100;
+    cout<< f(n) <<endl;
+
+    cin>>Piggy[1].name>>Piggy[1].age;
+    cout<<Piggy[1].name<<" "<<Piggy[1].age;
+
+    return 0;
+}
+```
+Input
+```
+Piggy1 20
+```
+Output
+```
+5050
+Piggy1 20
+```
+### Exercise P5736, P5740
 
 
 
