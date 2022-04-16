@@ -10,6 +10,6 @@ Week 1 2022/4/10 Sun
 
 Week 2 2022/4/17 Sun 
 
-[Lecture 1 Programming Basic (Full)](https://github.com/PiggyHub/PGI101-Programming-Contest/blob/main/Week%201/Lecture%201.md)
+[Lecture 1 Programming Basic (Full)](https://github.com/PiggyHub/PGI101-Programming-Contest/blob/main/Week%202/Lecture%201.md)
               
-[Assignment 1 C++ Basic](https://pintia.cn/problem-sets/17/problems/type/7)
+[Assignment 1 C++ Basic](https://www.luogu.com.cn/training/169426)
