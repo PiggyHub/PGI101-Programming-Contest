@@ -99,7 +99,7 @@ int main(){
 ```
 Input
 ```
-Hello
+Hello World
 ```
 Output
 ```
