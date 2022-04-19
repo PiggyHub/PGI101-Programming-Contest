@@ -26,18 +26,19 @@ Output
 5 4 3 2 1
 ```
 ### Exercise P1059, P1093
-## Example 3 Recursion & Recurrence
+
+## Example 3 Greedy
+```
+Make the locally optimal choice at each stage
+```
+### Exercise P1223, P1090
+
+## Example 4 Recursion & Recurrence
 ```
 Recursion: A function which calls itself.
 Recurrence: An equation that describes a function in terms of its value on smaller inputs
 ```
 ### Exercise P1059, P1093
-
-## Example 4 Greedy
-```
-Make the locally optimal choice at each stage
-```
-### Exercise P1223, P1090
 
 
 
