@@ -18,4 +18,4 @@
 
 [Lecture 2 Introduction to Algorithm](https://github.com/PiggyHub/PGI101-Programming-Contest/blob/main/Week%203/Lecture%202.md)
               
-[Assignment 2](https://www.luogu.com.cn/training/edit/170319#problem)
+[Assignment 2](https://www.luogu.com.cn/training/170319)
