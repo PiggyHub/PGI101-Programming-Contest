@@ -38,7 +38,7 @@ Make the locally optimal choice at each stage
 Recursion: A function which calls itself.
 Recurrence: An equation that describes a function in terms of its value on smaller inputs
 ```
-### Exercise P1059, P1093
+### Exercise P1002, P1028
 
 
 
