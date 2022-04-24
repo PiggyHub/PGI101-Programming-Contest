@@ -26,15 +26,5 @@
               
 [Assignment 3](https://www.luogu.com.cn/training/170319)
 
-### 2022/4/22 Fri
-
-[Lecture 4 Data Structure Foundation](https://github.com/PiggyHub/PGI101-Programming-Contest/blob/main/Week%203/Lecture%202.md)
-              
-[Assignment 4](https://www.luogu.com.cn/training/170319)
-
-
-### 2022/4/23 Sat
-
-[Lecture 5 Advanced Algorithm](https://github.com/PiggyHub/PGI101-Programming-Contest/blob/main/Week%203/Lecture%202.md)
-              
-[Assignment 5](https://www.luogu.com.cn/training/170319)
+### 2022/4/24 Sun
+Graduation Ceremony
